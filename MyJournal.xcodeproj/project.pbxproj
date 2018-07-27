@@ -54,14 +54,38 @@
 		6BB14825210B771D00AB2D24 /* MyJournal */ = {
 			isa = PBXGroup;
 			children = (
-				6BB14826210B771D00AB2D24 /* AppDelegate.swift */,
-				6BB14828210B771D00AB2D24 /* ViewController.swift */,
-				6BB1482A210B771D00AB2D24 /* Main.storyboard */,
-				6BB1482D210B771D00AB2D24 /* Assets.xcassets */,
-				6BB1482F210B771D00AB2D24 /* LaunchScreen.storyboard */,
-				6BB14832210B771D00AB2D24 /* Info.plist */,
+				6BB14838210B773300AB2D24 /* Sources */,
+				6BB14839210B773F00AB2D24 /* Storyboards */,
+				6BB1483A210B774C00AB2D24 /* Resources */,
 			);
 			path = MyJournal;
+			sourceTree = "<group>";
+		};
+		6BB14838210B773300AB2D24 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6BB14826210B771D00AB2D24 /* AppDelegate.swift */,
+				6BB14828210B771D00AB2D24 /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6BB14839210B773F00AB2D24 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6BB1482A210B771D00AB2D24 /* Main.storyboard */,
+				6BB1482F210B771D00AB2D24 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6BB1483A210B774C00AB2D24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BB1482D210B771D00AB2D24 /* Assets.xcassets */,
+				6BB14832210B771D00AB2D24 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyJournal/Info.plist;
+				INFOPLIST_FILE = MyJournal/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MyJournal/Info.plist;
+				INFOPLIST_FILE = MyJournal/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
